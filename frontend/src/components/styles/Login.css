@@ -1,0 +1,114 @@
+.login-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-box {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  width: 300px;
+  padding: 40px 30px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.25); 
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); 
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px); 
+  z-index: 2;
+}
+
+.login-title {
+  font-size: 3.5rem;
+  font-family: "Lemon Tuesday";
+}
+
+.login-email,
+.login-password {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 1rem;
+  color: #333;
+  margin-top: 0.6rem;
+  margin-bottom: 0;
+}
+
+.input-field {
+  margin-top: 0.6rem;
+  margin-bottom: 0rem;
+  width: 100%;
+  max-width: 280px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.login-error {
+  color: whitesmoke;
+  font-size: 1.2rem;
+  text-align: center;
+  display: block;
+}
+
+.field-error {
+  color: #d93025;
+  font-size: 0.8rem;
+  text-align: left;
+  display: block;
+}
+
+.login-btn,
+.google-btn {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 2rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.login-btn:hover,
+.google-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  background-color: #4a26c9;
+}
+
+
+.login-option {
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+  font-size: 0.85rem;
+}
+
+.register-option {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+}
+
+.register-link {
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.ImageR {
+  position: absolute;
+  bottom: 0px;
+  right: 50px;
+}
+
+.ImageR img {
+  width: 400px;
+}
